@@ -1,0 +1,45 @@
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	min-height:200px;
+	float:left;
+}
+#reviews {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width:40%;
+	min-height:200px;
+	float:left;
+}
+#sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 3px;
+	font-size: 14px;
+	min-height: 45px;
+	cursor: move;
+}
+#map {
+	display:none;
+	height: 400px;
+	width: 100%;
+	border: 1px solid;
+}
+#driving_directions {
+	display:none;
+}
+#show_map {
+	display:none;
+}
+#breweries_results {
+	display:none;
+}
+#current_coordinates,
+#enter_coordinates {
+	display:none;
+}
+#loading {
+	display:none;
+}  
